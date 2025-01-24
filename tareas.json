@@ -44,5 +44,14 @@
       "asignacion": "completada",
       "id": "XLXI24V"
     }
+  ],
+
+  "usuarios": [
+    {
+      "nombre": "andres",
+      "correo": "123andresandresportilla@gmail.com",
+      "contrasena": "123"
+      
+    }
   ]
 }
