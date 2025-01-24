@@ -15,8 +15,7 @@
 
           data.forEach(element => {
             if(element.correo === correo && element.contrasena === contrasena);
-            console.log(usuario);
-            windows.location.href = "index.html"
+            window.location.href = "index.html"
                 
             });
              

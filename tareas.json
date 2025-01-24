@@ -33,6 +33,14 @@
       "fechaFin": "2025-01-25",
       "asignacion": "progreso",
       "id": "JshUOVH"
+    },
+    {
+      "id": "3d1d",
+      "titulo": "ggg",
+      "descripcion": "254",
+      "fechaInicio": "2025-01-24",
+      "fechaFin": "2025-01-24",
+      "asignacion": "progreso"
     }
   ],
   "completada": [
@@ -43,15 +51,22 @@
       "fechaFin": "2025-01-23",
       "asignacion": "completada",
       "id": "XLXI24V"
+    },
+    {
+      "id": "ce85",
+      "titulo": "gcfcg",
+      "descripcion": "gfgf",
+      "fechaInicio": "2025-01-24",
+      "fechaFin": "2025-01-24",
+      "asignacion": "completada"
     }
   ],
-
   "usuarios": [
     {
       "nombre": "andres",
       "correo": "123andresandresportilla@gmail.com",
-      "contrasena": "123"
-      
+      "contrasena": "123",
+      "id": "c875"
     }
   ]
 }
