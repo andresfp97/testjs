@@ -1,0 +1,48 @@
+{
+  "pendiente": [
+    {
+      "titulo": "aaa",
+      "descripcion": "bbb",
+      "fechaInicio": "2025-01-23",
+      "fechaFin": "2025-01-23",
+      "asignacion": "pendiente",
+      "id": "oeTQJfd"
+    },
+    {
+      "titulo": "aaa",
+      "descripcion": "bbb",
+      "fechaInicio": "2025-01-23",
+      "fechaFin": "2025-01-23",
+      "asignacion": "pendiente",
+      "id": "PlIG4zA"
+    }
+  ],
+  "progreso": [
+    {
+      "titulo": "aaa",
+      "descripcion": "bbb",
+      "fechaInicio": "2025-01-23",
+      "fechaFin": "2025-01-23",
+      "asignacion": "progreso",
+      "id": "_8G-9Be"
+    },
+    {
+      "titulo": "jjj",
+      "descripcion": "pepe",
+      "fechaInicio": "2025-01-25",
+      "fechaFin": "2025-01-25",
+      "asignacion": "progreso",
+      "id": "JshUOVH"
+    }
+  ],
+  "completada": [
+    {
+      "titulo": "aaa",
+      "descripcion": "bbb",
+      "fechaInicio": "2025-01-23",
+      "fechaFin": "2025-01-23",
+      "asignacion": "completada",
+      "id": "XLXI24V"
+    }
+  ]
+}
