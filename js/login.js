@@ -1,6 +1,6 @@
+        const entrar = document.getElementById("login-form")
 
-
-        iniciarFormulario.addEventListener('submit', async (e) => {
+        entrar.addEventListener('submit', async (e) => {
         e.preventDefault();
         let correo = document.getElementById('login-correo').value;
         let contrasena = document.getElementById('login-contrasena').value;
@@ -12,9 +12,14 @@
             }
 
             const data = await respuesta.json();
-            const usuario = data.find((usuario) => usuario.correo === correo && usuario.contrasena === contrasena);
+
+          data.forEach(element => {
+            if(element.correo === correo && element.contrasena === contrasena);
             console.log(usuario);
-            
+            windows.location.href = "index.html"
+                
+            });
+             
 
             if (!usuario) {
                
@@ -24,29 +29,9 @@
                 
             }
 
-            actualizarEstado(true);
-            localStorage.setItem('usuario', JSON.stringify(usuario.id));
-            alert("Bienvenido " + usuario.nombre);
-            actualizarSesion();
-            window.location.href = 'habitaciones.html';
-            
+    
         } catch (error) {
             console.error(error);
         }
     });
 
-    tabLogin.addEventListener('click', () => {
-        iniciarFormulario.classList.remove('hidden');
-        registroFormulario.classList.add('hidden');
-        tabLogin.classList.add('border-blue-600', 'font-bold');
-        tabRegistro.classList.remove('border-blue-600', 'font-bold');
-    });
-
-    tabRegistro.addEventListener('click', () => {
-        registroFormulario.classList.remove('hidden');
-        iniciarFormulario.classList.add('hidden');
-        tabRegistro.classList.add('border-blue-600', 'font-bold');
-        tabLogin.classList.remove('border-blue-600', 'font-bold');
-    });
-
-});
