@@ -1,4 +1,4 @@
-{
+{ 
   "pendiente": [
     {
       "titulo": "aaa",
@@ -64,7 +64,7 @@
   "usuarios": [
     {
       "nombre": "andres",
-      "correo": "123andresandresportilla@gmail.com",
+      "correo": "123andresportilla@gmail.com",
       "contrasena": "123",
       "id": "c875"
     }

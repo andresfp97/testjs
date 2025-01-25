@@ -116,6 +116,13 @@ async function pintarTareas(datos, seccion) {
          <font style="vertical-align: inherit;"> ${element.fechaFin}</font>
        </font>
      </p>
+     <select name="pets" id="asignacion">
+     <option value="">--Marcar como-</option>
+     <option value="pendiente">Pendiente</option>
+     <option value="progreso">Progreso</option>
+     <option value="completada">Completada</option>
+ </select> <br><br>
+ <button class="flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded" type="submit">Asignar Tarea</button>
      </div>
    </div>
  </div>`
