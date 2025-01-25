@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="../js/registro.js" defer></script>
+
+</head>
+
+<body>
+
+  <div class="bg-gray-100 h-[100vh] flex items-center justify-center ">
+    <div class="bg-white rounded shadow-lg w-full max-w-md p-6 my-32">
+      <div class="flex border-b mb-6">
+        <button id="tab-register"
+          class="flex-1 py-2 text-center text-gray-800 border-b-2 border-transparent hover:border-gray-400 focus:outline-none">
+          Registro
+        </button>
+      </div>
+
+
+      <form id="registro-form" class="space-y-4">
+        <h2 class="text-2xl font-bold text-center text-gray-800">Registro</h2>
+        <div>
+          <label for="register-nombre" class="block text-sm font-medium text-gray-600">Nombre Completo</label>
+          <input type="text" id="registro-nombre"
+            class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+        </div>
+        <div>
+          <label for="register-email" class="block text-sm font-medium text-gray-600">Correo Electrónico</label>
+          <input type="email" id="registro-correo"
+            class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+        </div>
+        <div>
+          <label for="register-password" class="block text-sm font-medium text-gray-600">Contraseña</label>
+          <input type="password" id="registro-contrasena"
+            class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+        </div>
+        <button type="submit" class="w-full py-2 text-white bg-blue-600 rounded hover:bg-blue-700">Registrar</button>
+
+      </form>
+    </div>
+  </div>
+
+</body>
+
+</html>

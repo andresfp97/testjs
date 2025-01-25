@@ -1,5 +1,6 @@
         const entrar = document.getElementById("login-form")
 
+
         entrar.addEventListener('submit', async (e) => {
         e.preventDefault();
         let correo = document.getElementById('login-correo').value;
@@ -15,22 +16,15 @@
 
           data.forEach(element => {
             if(element.correo === correo && element.contrasena === contrasena);
-            window.location.href = "index.html"
-                
+            localStorage.setItem("usuario", element.correo)
+            window.location.href = "htmls/tareas.html"
+       
             });
+
              
-
-            if (!usuario) {
-               
-                document.getElementById('login-correo').value ="";
-                document.getElementById('login-contrasena').value = "";
-                throw new Error( alert('Usuario o contraseña incorrectos'));
-                
-            }
-
-    
         } catch (error) {
             console.error(error);
         }
     });
+
 
